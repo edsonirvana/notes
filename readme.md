@@ -1,5 +1,13 @@
-Install .deb paths:
+####Install `.deb` paths:
+```c#
 sudo dpkg -i pacote.deb
-desinstalar:
+```
+####Uninstall:
+```c#
 sudo apt-get remove nomedopacote
+```
+
+
+
+
 
