@@ -7,9 +7,7 @@ sudo dpkg -i pacote.deb
 sudo apt-get remove nomedopacote
 ```
 
-#### Error:
-You might want to run 'apt --fix-broken install' to correct these.
-#### Code to fix:
+#### Error: You might want to run 'apt --fix-broken install' to correct these.
 ```c#
  sudo apt-get install --fix-broken
  ```
