@@ -6,5 +6,6 @@
  sudo apt-get install --fix-broken
  ```
 
+tar -zxvf  nome do arquivo terminado em .tar.gz
 
 
