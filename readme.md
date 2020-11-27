@@ -8,4 +8,7 @@
 
 tar -zxvf  nome do arquivo terminado em .tar.gz
 
+tar -zxvf  nome do arquivo terminado em .tar.gz
+
+
 
