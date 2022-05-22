@@ -22,3 +22,6 @@ ELIF condição 02:
 ELSE:
   ação genérica final
   
+INPUT solicita ao usuário que entre com algum valor
+variavel01 = input('Digite o valor da variavel')
+
