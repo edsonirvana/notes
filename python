@@ -28,7 +28,6 @@ variavel01 = input('Digite o valor da variavel')
 o valor digitado virá em string, para converter para inteiro usar int
 INT(variavel01)
 
-percent%
-
+place holder
 imprime o valor de uma variável num texto
-print('Você digitou a variável %s e %r') (varivavel01,variavel02)
+print('Você digitou a variável %s e %r!' %(varivavel01,variavel02))
