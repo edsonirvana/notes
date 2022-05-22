@@ -13,6 +13,3 @@ tar -zxvf  nome do arquivo terminado em .tar.gz
 tar -zxvf  nome do arquivo terminado em .tar.gz
 
 Error: You might want to run 'apt --fix-broken install' to correct these.
-
-
-
