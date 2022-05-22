@@ -1,1 +1,10 @@
+= atribuição de valor a variável
+idade = 10
 
+== condição de igual (se tal coisa é igual) usa-se
+if idade == 10
+
+: determina ação a seguir
+idade = 1o
+if idade == 10:
+print("Idade igual a 10)
