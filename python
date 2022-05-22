@@ -1,3 +1,5 @@
+=, ==, if, :, print()
+
 = atribuição de valor a variável
 idade = 10
 
@@ -8,3 +10,15 @@ if idade == 10
 idade = 1o
 if idade == 10:
 print("Idade igual a 10)
+
+
+ELIF:
+Funciona como um segundo IF dentro do primeito IF, se você quer fazer
+dois IF's antes do ELSE, pode usar ELIF:
+IF condição 01:
+  ação 01
+ELIF condição 02:
+  ação 03
+ELSE:
+  ação genérica final
+  
