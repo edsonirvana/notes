@@ -31,3 +31,4 @@ INT(variavel01)
 place holder
 imprime o valor de uma variável num texto
 print('Você digitou a variável %s e %r!' %(varivavel01,variavel02))
+.
