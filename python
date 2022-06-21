@@ -7,7 +7,6 @@ objeto.método()
 objeto.método(parâmetros) método é uma função
 parâmetros são argumentos extras que podemos passar para o método
 
-
 #INDEXACAO
 USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
 colchetes[]
@@ -24,18 +23,28 @@ texto="String"
 texto[0] = S
 texto[1] = t
 
+#TRANSFORMAR EM MAIUSCULA e MINUSCULA métodos
+texto.upper()
+texto.lower()
+
+#SPLIT 
+texto="String String String" # faz a divisao por caracter, se deixar em branco faz  divisão por espaço em branco
+texto.split()
+saída: ['String', 'String', 'String']
+
+texto.split("S") #divisao por caracter S
+saída: ['', 'tring ', 'tring ', 'tring']
+
 #SLICING
 texto="String"
-texto[1:] # retornará os caracteres da posição 1 em diante (tudo a partir da posição 01)
+texto[1:] # retornará os caracteres da 1 (incluir a posição 1) em diante (tudo a partir da posição 01)
 saída: 'tring'
 
-texto[:3] # tudo até a posição 3
+texto[:3] # tudo a posição 2 (exclui a posição 3), ou seja antes da posição 3 de trás pra frente
 saída: 'ing'
 
-
 texto[:3] # tudo até a posição 3
 saída: 'ing'
-
 
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
@@ -43,7 +52,6 @@ print(texto)
 saída:
 String 
  String
-
 
 #FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
 abs(-8) retira o simbolo negativo e retorna  valor absoluto > 8
