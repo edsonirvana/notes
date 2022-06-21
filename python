@@ -3,6 +3,9 @@
 #VERIFICAR TIPO DE UM OBJETO
 
 type()
+pode ser usado assim type(varivavel)
+ou type(5.2)
+ou type('string')
 
 #OPERAÇÕES COM NÚMEROS
 + SOMA
