@@ -71,3 +71,9 @@ def percentual(valor1, valor2):
     print(valor1, 'representa', resultado, '% de', valor2)
 
 percentual(v11, v12)
+
+# LENDO .CSV COM PANDAS
+
+import pandas as 
+origem_governo = pd.read_csv('arquivonapastaquevairodarocodigo.csv', sep = ';', encoding = 'utf-8')
+
