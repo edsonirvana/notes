@@ -1,3 +1,20 @@
+#INDEXACAO
+USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
+colchetes[]
+
+A indexação começa por 0 ZERO
+
+Se quer pegar a segunda posição de um índice
+o índice é 1 (0,1(segunda posição) ,2)
+
+CHAMANDO UMA POSICAO NUMA STRING VIA ÍNDICE:
+
+texto="String"
+
+texto[0] = S
+texto[1] = t
+
+
 #FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
 abs(-8) retira o simbolo negativo e retorna  valor absoluto > 8
 round(3.1415,2) arredonda indicando quantas casa decimais( neste caso 2
