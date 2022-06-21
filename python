@@ -52,6 +52,10 @@ and, or, not
 
 = atribuição de valor a variável
 idade = 10
+idade, ano, mes, dia = 45,1930,12,19
+idade = idade2 = idade3 = 45
+
+
 
 == condição de igual (se tal coisa é igual) usa-se
 if idade == 10
