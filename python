@@ -1,3 +1,4 @@
+#OPERADORES LÓGICOS E ESTRUTURAIS
 =, ==, if, :, print()
 
 = atribuição de valor a variável
@@ -11,6 +12,7 @@ idade = 1o
 if idade == 10:
 print("Idade igual a 10)
 
+#IF E ELIF
 
 ELIF:
 Funciona como um segundo IF dentro do primeito IF, se você quer fazer
@@ -31,4 +33,32 @@ INT(variavel01)
 place holder
 imprime o valor de uma variável num texto
 print('Você digitou a variável %s e %r!' %(varivavel01,variavel02))
-.
+
+
+#RETORNANDO O ANO ATUAL
+from datetime import date
+date = date.today()
+year=date.year
+name = input("Digite seu nome ")
+birth_year = input("Digite seu ano de nascimento: ")
+age = int(year)-int(birth_year)
+print(name, "Sua idade é: ", age)
+
+number01 = input("Digite o primeiro número ")
+number02 = input("Digite o segundo número ")
+print(float(number01)+float(number02))
+
+
+#CODE E ENCODE UTF-8
+s='édson'
+b=s.encode('utf8')
+print(b)
+i='é'
+d=i.encode('utf8')
+print(d)
+type(i)
+e=d.decode('utf8')
+print(e)
+
+
+#
