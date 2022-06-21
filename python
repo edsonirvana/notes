@@ -45,6 +45,9 @@ bin(1) converte para binário
 
 
 #OPERADORES LÓGICOS E ESTRUTURAIS
+
+and, or, not
+
 =, ==, if, :, print()
 
 = atribuição de valor a variável
