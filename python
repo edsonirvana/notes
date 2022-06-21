@@ -1,3 +1,18 @@
+#FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
+
+ABS()
+
+#OPERAÇÕES COM NÚMEROS
++ SOMA
+- SUBTRAÇÃO
+* MULTIPLAÇÃO
+/ DIVISÃO
+% MÓDULO
+** POTENCIA
+
+int() converte para numero inteiro int(3.2) > 3
+float() converte para float(2) > 2.0
+
 #OPERADORES LÓGICOS E ESTRUTURAIS
 =, ==, if, :, print()
 
@@ -76,4 +91,3 @@ percentual(v11, v12)
 
 import pandas as 
 origem_governo = pd.read_csv('arquivonapastaquevairodarocodigo.csv', sep = ';', encoding = 'utf-8')
-
