@@ -60,5 +60,4 @@ type(i)
 e=d.decode('utf8')
 print(e)
 
-
 #
