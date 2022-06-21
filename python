@@ -1,4 +1,9 @@
 #FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
+abs(-8) retira o simbolo negativo e retorna  valor absoluto > 8
+round(3.1415,2) arredonda indicando quantas casa decimais( neste caso 2
+, se deixar vazio arrendona com zero casas decimais) > 3.14
+
+pow(4,2) elevar a POTENCIA
 
 #VERIFICAR TIPO DE UM OBJETO
 
@@ -26,6 +31,10 @@ ou type('string')
 
 int() converte para numero inteiro int(3.2) > 3
 float() converte para float(2) > 2.0
+
+hex(1) converte para número hexadecimal
+bin(1) converte para binário
+
 
 #OPERADORES LÓGICOS E ESTRUTURAIS
 =, ==, if, :, print()
