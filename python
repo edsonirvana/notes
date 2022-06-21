@@ -28,6 +28,14 @@ ou type('string')
 >= MAIOR OU IGUAL A
 <= MENOR OU IGUAL A
 
+= Atribuição
++= Soma, Z += 10 equivale a z = z +10
+-= Subtração
+*= Multiplicação
+/= Divisão z /= 10 equivale a Z = Z /10
+%= Módulo
+**= POTENCIA
+//= Divisao inteira
 
 int() converte para numero inteiro int(3.2) > 3
 float() converte para float(2) > 2.0
