@@ -24,6 +24,13 @@ texto="String"
 texto[0] = S
 texto[1] = t
 
+#IMRIMINDO STRING COM QUEBRA DE LINHA
+texto="String \n String"
+print(texto)
+saída:
+String 
+ String
+
 
 #FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
 abs(-8) retira o simbolo negativo e retorna  valor absoluto > 8
