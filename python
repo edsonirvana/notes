@@ -24,6 +24,19 @@ texto="String"
 texto[0] = S
 texto[1] = t
 
+#SLICING
+texto="String"
+texto[1:] # retornará os caracteres da posição 1 em diante (tudo a partir da posição 01)
+saída: 'tring'
+
+texto[:3] # tudo até a posição 3
+saída: 'ing'
+
+
+texto[:3] # tudo até a posição 3
+saída: 'ing'
+
+
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
 print(texto)
