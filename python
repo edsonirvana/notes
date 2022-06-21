@@ -44,6 +44,11 @@ hex(1) converte para número hexadecimal
 bin(1) converte para binário
 
 
+#CONCATENAR VARIÁVEIS DO TIPO STRING E INT
+variavelconcatenada = variavel01 + variavel02 
+neste caso não soma, pois é string.
+
+
 #OPERADORES LÓGICOS E ESTRUTURAIS
 
 and, or, not
