@@ -36,7 +36,7 @@ texto.split("S") #divisao por caracter S
 saída: ['', 'tring ', 'tring ', 'tring']
 
 #SLICING
-texto="String"
+texto="String" 
 texto[1:] # retornará os caracteres da 1 (incluir a posição 1) em diante (tudo a partir da posição 01)
 saída: 'tring'
 
