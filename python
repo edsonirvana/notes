@@ -189,3 +189,13 @@ percentual(v11, v12)
 
 import pandas as 
 origem_governo = pd.read_csv('arquivonapastaquevairodarocodigo.csv', sep = ';', encoding = 'utf-8')
+
+#PANDAS
+import pandas as pd
+
+tabela1 = pd.read_excel("caminho")
+tabela2 = pd.read_excel("caminho")
+
+tabela3 = tabela1.merge(tabela2, left_on="Chave", right_on="Chave")
+
+print(tabela3)
