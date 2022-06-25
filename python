@@ -200,5 +200,5 @@ tabela3 = tabela1.merge(tabela2, left_on="Chave", right_on="Chave")
 
 print(tabela3)
 
-
+print(tabela3)
 print(tabela3)
