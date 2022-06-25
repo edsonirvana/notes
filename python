@@ -212,6 +212,7 @@ def percentual(valor1, valor2):
 
 percentual(v11, v12)
 
+
 #PANDAS
 # LENDO .CSV ou .XLSX COM PANDAS
 import pandas as pd
@@ -226,4 +227,7 @@ tabela3 = tabela1.merge(tabela2, left_on="Chave", right_on="Chave")
 
 print(tabela3)
 
-#
+
+#ESTRUTURA DE DADOS
+
+#LISTAS
