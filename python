@@ -62,6 +62,16 @@ texto.count('i') #conta quantas vezes o argumento aparece na string
 texto.find('i') #encontra a posição do argumento na string
 >3
 
+texto.islower() #verifica se o texto da sring é todo minúsculo
+True
+
+texto.isspace() #verifica se a string possui apenas espaço
+False
+
+texto.endswith('i') #verifica se a string termina com o argumento
+False
+
+
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
 print(texto)
