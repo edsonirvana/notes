@@ -1,4 +1,5 @@
 
+#SOBRE A LINGUAGEM
 ORIENTADO A OBJETO
 ATRIBUTOS PROPRIEDADES E MÉTODOS
 
@@ -6,6 +7,7 @@ objeto.atributo
 objeto.método()
 objeto.método(parâmetros) método é uma função
 parâmetros são argumentos extras que podemos passar para o método
+
 
 #INDEXACAO
 USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
@@ -23,9 +25,11 @@ texto="String"
 texto[0] = S
 texto[1] = t
 
+
 #TRANSFORMAR EM MAIUSCULA e MINUSCULA métodos
 texto.upper()
 texto.lower()
+
 
 #SPLIT 
 texto="String String String" # faz a divisao por caracter, se deixar em branco faz  divisão por espaço em branco
@@ -34,6 +38,7 @@ saída: ['String', 'String', 'String']
 
 texto.split("S") #divisao por caracter S
 saída: ['', 'tring ', 'tring ', 'tring']
+
 
 #SLICING
 texto="String" 
@@ -45,6 +50,7 @@ saída: 'ing'
 
 texto[:3] # tudo até a posição 3
 saída: 'ing'
+
 
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
@@ -60,12 +66,13 @@ round(3.1415,2) arredonda indicando quantas casa decimais( neste caso 2
 
 pow(4,2) elevar a POTENCIA
 
-#VERIFICAR TIPO DE UM OBJETO
 
+#VERIFICAR TIPO DE UM OBJETO
 type()
 pode ser usado assim type(varivavel)
 ou type(5.2)
 ou type('string')
+
 
 #OPERAÇÕES COM NÚMEROS
 + SOMA
@@ -105,7 +112,6 @@ neste caso não soma, pois é string.
 
 
 #OPERADORES LÓGICOS E ESTRUTURAIS
-
 and, or, not
 
 =, ==, if, :, print()
@@ -115,8 +121,6 @@ idade = 10
 idade, ano, mes, dia = 45,1930,12,19
 idade = idade2 = idade3 = 45
 
-
-
 == condição de igual (se tal coisa é igual) usa-se
 if idade == 10
 
@@ -125,8 +129,8 @@ idade = 1o
 if idade == 10:
 print("Idade igual a 10)
 
-#IF E ELIF
 
+#IF E ELIF
 ELIF:
 Funciona como um segundo IF dentro do primeito IF, se você quer fazer
 dois IF's antes do ELSE, pode usar ELIF:
@@ -173,6 +177,7 @@ type(i)
 e=d.decode('utf8')
 print(e)
 
+
 #função para percentual dando input de dois números
 v1 = input("v1")
 v2 = input("v2")
@@ -185,13 +190,12 @@ def percentual(valor1, valor2):
 
 percentual(v11, v12)
 
-# LENDO .CSV COM PANDAS
-
-import pandas as 
+#PANDAS
+# LENDO .CSV ou .XLSX COM PANDAS
+import pandas as pd
 origem_governo = pd.read_csv('arquivonapastaquevairodarocodigo.csv', sep = ';', encoding = 'utf-8')
 
-#PANDAS
-import pandas as pd
+ou
 
 tabela1 = pd.read_excel("caminho")
 tabela2 = pd.read_excel("caminho")
@@ -199,3 +203,5 @@ tabela2 = pd.read_excel("caminho")
 tabela3 = tabela1.merge(tabela2, left_on="Chave", right_on="Chave")
 
 print(tabela3)
+
+#
