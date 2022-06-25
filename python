@@ -51,6 +51,16 @@ saída: 'ing'
 texto[:3] # tudo até a posição 3
 saída: 'ing'
 
+#FUNCOES STRING
+texto="string string string"
+texto.capitalize()          #altera a primeira letra para Maiúscula
+>'String string string'"
+
+texto.count('i') #conta quantas vezes o argumento aparece na string
+>3
+
+texto.find('i') #encontra a posição do argumento na string
+>3
 
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
