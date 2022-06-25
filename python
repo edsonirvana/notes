@@ -71,6 +71,8 @@ False
 texto.endswith('i') #verifica se a string termina com o argumento
 False
 
+print("String1" == "String2") #compara duas strings
+False
 
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
