@@ -275,16 +275,3 @@ if __name__ == '__main__':
     fptr.write('\n')
 
     fptr.close()
-
-
-
-
-        my_array_item = input()
-        my_array.append(my_array_item)
-
-    result = clean_and_sort_string_array(my_array)
-
-    fptr.write('\n'.join(result))
-    fptr.write('\n')
-
-    fptr.close() 
