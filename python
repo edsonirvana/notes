@@ -276,19 +276,9 @@ if __name__ == '__main__':
 
     fptr.close()
 
-    open
-    open
-    open
-    open
 
-    if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    my_array_count = int(input().strip())
 
-    my_array = []
-
-    for _ in range(my_array_count):
         my_array_item = input()
         my_array.append(my_array_item)
 
@@ -297,4 +287,4 @@ if __name__ == '__main__':
     fptr.write('\n'.join(result))
     fptr.write('\n')
 
-    fptr.close()
+    fptr.close() 
