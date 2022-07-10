@@ -288,3 +288,4 @@ if n % 2 == 0:
     if n >20: 
         print('Not Weird')
         open()
+open()
