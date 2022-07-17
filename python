@@ -235,10 +235,6 @@ print(tabela3)
 #
 
 
-
-
-
-
 #!/bin/python3
 
 import math
