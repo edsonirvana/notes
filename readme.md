@@ -1,3 +1,6 @@
+
+base de conhecimento
+
 #### Install `.deb` paths:
 ```c# sudo dpkg -i pacote.deb```
 #### Uninstall:
