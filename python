@@ -103,7 +103,7 @@ texto="String \n String"
 print(texto)
 saída:
 String 
- String
+ String 
 
 #FUNÇÕES BUILT IN, FUNÇÕES QUE JÁ VEM NO PYTHON
 abs(-8) retira o simbolo negativo e retorna  valor absoluto > 8
