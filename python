@@ -3,57 +3,22 @@ Open Source
 ORIENTADO A OBJETO
 IDENTADA, NECESSARIO ORGANIZAR OS BLOCOS CONFORME HIERARQUIA
 ATRIBUTOS PROPRIEDADES E MÉTODOS
+OPERADORES
+-----------------------------------------------------------------------------------------------------------
+FUNCOES = 
+
+-----------------------------------------------------------------------------------------------------------
+METODOS= 
+sao funcoes que pertecem ao objeto, um exemplo de objeto: string
+
+O metodo disponivel depende do tipo de dados, exemplo para um tipo de dados string:
+.title()
+print("good luck".title()) # Good Luck (transforma cada primeira letra em maiuscula)
 
 objeto.atributo
 objeto.método()
 objeto.método(parâmetros) método é uma função
 parâmetros são argumentos extras que podemos passar para o método
-
-
-
-#INDEXACAO
-USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
-colchetes[]
-
-A indexação começa por 0 ZERO
-
-Se quer pegar a segunda posição de um índice
-o índice é 1 (0,1(segunda posição) ,2)
-
-DECLARANDO UMA VARIAVEL DO TIPO STRING COM " "
-texto="String" ou assim texto='String'
-se precisar incluir ' no meio texto:
-texto="String's" ou assim texto='string\'s'
-
-CHAMANDO UMA POSICAO NUMA STRING VIA ÍNDICE:
-texto[0] = S
-texto[1] = t
-
-
-#TRANSFORMAR EM MAIUSCULA e MINUSCULA métodos
-texto.upper()
-texto.lower()
-
-
-#SPLIT 
-texto="String String String" # faz a divisao por caracter, se deixar em branco faz  divisão por espaço em branco
-texto.split()
-saída: ['String', 'String', 'String']
-
-texto.split("S") #divisao por caracter S
-saída: ['', 'tring ', 'tring ', 'tring']
-
-
-#SLICING
-texto="String" 
-texto[1:] # retornará os caracteres da 1 (incluir a posição 1) em diante (tudo a partir da posição 01)
-saída: 'tring'
-
-texto[:3] # tudo a posição 2 (exclui a posição 3), ou seja antes da posição 3 de trás pra frente
-saída: 'ing'
-
-texto[:3] # tudo até a posição 3
-saída: 'ing'
 
 #FUNCOES STRING
 texto="string string string"
@@ -78,6 +43,61 @@ False
 print("String1" == "String2") #compara duas strings
 False
 
+#TRANSFORMAR EM MAIUSCULA e MINUSCULA métodos
+texto.upper()
+texto.lower()
+
+#LEN
+texto="String"
+len(texto) retorna o a quantidade de caracteres no texto no formato inteiro 5
+
+#SPLIT 
+texto="String String String" # faz a divisao por caracter, se deixar em branco faz  divisão por espaço em branco
+texto.split()
+saída: ['String', 'String', 'String']
+
+texto.split("S") #divisao por caracter S
+saída: ['', 'tring ', 'tring ', 'tring']
+
+-----------------------------------------------------------------------------------------------------------
+#INDEXACAO
+USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
+colchetes[]
+
+A indexação começa por 0 ZERO
+
+Se quer pegar a segunda posição de um índice
+o índice é 1 (0,1(segunda posição) ,2)
+
+DECLARANDO UMA VARIAVEL DO TIPO STRING COM " "
+texto="String" ou assim texto='String'
+se precisar incluir ' no meio texto:
+texto="String's" ou assim texto='string\'s'
+
+CHAMANDO UMA POSICAO NUMA STRING VIA ÍNDICE:
+texto[0] = S
+texto[1] = t
+
+
+-----------------------------------------------------------------------------------------------------------
+#FUNCOES
+
+
+
+
+#SLICING
+texto="String" 
+texto[1:] # retornará os caracteres da 1 (incluir a posição 1) em diante (tudo a partir da posição 01)
+saída: 'tring'
+
+texto[:3] # tudo a posição 2 (exclui a posição 3), ou seja antes da posição 3 de trás pra frente
+saída: 'ing'
+
+texto[:3] # tudo até a posição 3
+saída: 'ing'
+
+
+
 #IMRIMINDO STRING COM QUEBRA DE LINHA
 texto="String \n String"
 print(texto)
@@ -99,6 +119,9 @@ pode ser usado assim type(varivavel)
 ou type(5.2)
 ou type('string')
 
+
+
+#OPERADORES
 
 #OPERAÇÕES COM NÚMEROS
 + SOMA
