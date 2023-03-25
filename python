@@ -19,10 +19,12 @@ A indexação começa por 0 ZERO
 Se quer pegar a segunda posição de um índice
 o índice é 1 (0,1(segunda posição) ,2)
 
+DECLARANDO UMA VARIAVEL DO TIPO STRING COM " "
+texto="String" ou assim texto='String'
+se precisar incluir ' no meio texto:
+texto="String's" ou assim texto='string\'s'
+
 CHAMANDO UMA POSICAO NUMA STRING VIA ÍNDICE:
-
-texto="String"
-
 texto[0] = S
 texto[1] = t
 
