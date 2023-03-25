@@ -10,6 +10,7 @@ objeto.método(parâmetros) método é uma função
 parâmetros são argumentos extras que podemos passar para o método
 
 
+
 #INDEXACAO
 USAMOS COLCHETES PARA REPRESENTAR O ÍNDICE DE UM OBJETO
 colchetes[]
